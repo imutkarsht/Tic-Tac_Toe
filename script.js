@@ -1,11 +1,11 @@
 console.log("Welcome to Tic Tac Toe")
-let music = new Audio("content/music.mp3")
-let audioTurn = new Audio("content/ting.mp3")
-let gameover = new Audio("content/gameover.mp3")
+let music = new Audio("resources/music.mp3")
+let audioTurn = new Audio("resources/ting.mp3")
+let gameover = new Audio("resources/gameover.mp3")
 let turn = "X"
 let isgameover = false;
 let musicplaying = false;
-let yay = new Audio("content/yay.mp3")
+let yay = new Audio("resources/yay.mp3")
 
 // Function to change the turn
 const changeTurn = ()=>{
