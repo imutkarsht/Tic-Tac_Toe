@@ -75,11 +75,11 @@ function togglePlayPause() {
     if (!musicplaying) {
         music.play();
         musicplaying = true;
-        button.innerHTML = "<i class='bx bx-pause-circle'></i>";
-    } else {
+        pm.innerHTML = "<i class='bx bx-pause-circle'></i>";
+    } else { 
         music.pause();
         musicplaying = false;
-        button.innerHTML = "<i class='bx bx-play-circle'></i>";
+        pm.innerHTML = "<i class='bx bx-play-circle'></i>";
     }
 }
 
